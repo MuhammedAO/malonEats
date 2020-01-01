@@ -41,7 +41,7 @@ navbarHandler = () => {
             navbar-light
             ">
              <Link to="/" className="navbar-brand">
-              <img src={food1} alt="logo" style={{fontSize: '15px'}}/>
+              <img src={food1} alt="logo" className="lg"/>
               {/* <h4>Logo Here</h4> */}
              </Link>
              <button 

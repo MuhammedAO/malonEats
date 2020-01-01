@@ -1,6 +1,6 @@
 :root{
   --mainBrown:#2d1ef1;
-  --mainYellow: #ff9e09;
+  --mainYellow: rgb(255, 157, 10);
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark : #222;
@@ -20,6 +20,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
+  font-family: 'Courier New', Courier, monospace;
  letter-spacing: 0.25rem!important;
 }
 
@@ -29,6 +30,17 @@ h1,h2,h3,h4,h5,h6 {
 
 .cart-icon {
   cursor: pointer;
-  color: var(--mainYellow);
+  color: #906C4D;
   font-size: 2rem;
+}
+
+
+.pasta {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(rgba(255, 158, 9, 0.5),rgba(255, 157, 10)); */
+  background-position: center;
+  background-size: cover;
 }
