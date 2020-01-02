@@ -8,6 +8,7 @@ import Info from "../components/Home/Info"
 import Menu from "../components/Home/Menu"
 import Products from "../components/Home/Products"
 import Contact from "../components/Home/Contact"
+import Testimonial from "../components/Home/Testimonial"
 
 const IndexPage = ({data}) => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = ({data}) => (
     <Info/>
     <Menu items={data.menu}/>
     <Products/>
+    <Testimonial/>
     <Contact/>
   </Layout>
 )

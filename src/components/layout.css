@@ -75,3 +75,47 @@ h1,h2,h3,h4,h5,h6 {
 .footer {
   background: var(--mainBrown);
 }
+
+.gray-container {
+  background-color: #f6f6f6;
+  padding: 4em 0 2em;
+  margin-top: -3em;
+}
+
+.gray-container ul li:first-child{
+  margin-bottom: 2em;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+
+blockquote {
+  font-size: .9em;
+  line-height: 1.6em;
+}
+
+@media only screen and (min-width: 875px) {
+  .gray-container ul {
+    margin: 4% 0 0;
+}
+}
+
+@media only screen and (min-width: 1600px){
+  .gray-container {
+    padding: 6em 0 4em;
+}
+
+}
+
+@media only screen and (min-width: 650px) {
+  .gray-container ul {
+    display: flex;
+}
+}
