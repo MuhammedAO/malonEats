@@ -1,26 +1,25 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
-import Info from "../components/Home/Info"
+import LocInfo from "../components/Home/LocInfo"
 
-const AboutPage = ({data}) => (
+const LocationPage = ({data}) => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="Location" />
     <BackgroundSection 
     img={data.img.childImageSharp.fluid}
-    title="about us"
+    title="Location"
     styleClass="about-background"
     />
-    <Info/>
+    <LocInfo/>
   </Layout>
 )
 
 export const query = graphql `
 {
-  img:file(relativePath:{eq:"about-background.jpeg"}){
+  img:file(relativePath:{eq:"map.jpg"}){
     childImageSharp {
       fluid{
         ...GatsbyImageSharpFluid_tracedSVG
@@ -30,4 +29,4 @@ export const query = graphql `
 }
 `
 
-export default AboutPage
+export default LocationPage
