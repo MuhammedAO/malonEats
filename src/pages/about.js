@@ -12,7 +12,7 @@ const AboutPage = ({data}) => (
     <BackgroundSection 
     img={data.img.childImageSharp.fluid}
     title="about us"
-    styleClass="cook"
+    styleClass="about-background"
     />
     <Info/>
   </Layout>
@@ -20,7 +20,7 @@ const AboutPage = ({data}) => (
 
 export const query = graphql `
 {
-  img:file(relativePath:{eq:"cook1.jpg"}){
+  img:file(relativePath:{eq:"about-background.jpeg"}){
     childImageSharp {
       fluid{
         ...GatsbyImageSharpFluid_tracedSVG

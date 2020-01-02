@@ -40,22 +40,22 @@ h1,h2,h3,h4,h5,h6 {
 } */
 
 
-.pasta {
+.default-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: linear-gradient(rgba(255, 158, 9, 0.5),rgba(255, 157, 10)); */
+  background: linear-gradient(rgba(255, 158, 9, 0.5),rgba(255, 157, 10));
   background-position: center;
   background-size: cover;
 }
 
-.cook {
-  min-height: 90vh;
+.about-background {
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: linear-gradient(rgba(255, 158, 9, 0.5),rgba(255, 157, 10)); */
+  background: linear-gradient(rgba(255, 158, 9, 0.5),rgba(255, 157, 10));
   background-position: center;
   background-size: cover;
 }
