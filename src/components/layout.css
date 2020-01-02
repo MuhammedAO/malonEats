@@ -35,6 +35,10 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 2rem;
 }
 
+/* .brown-text {
+  color: var(--primaryColor)!important;
+} */
+
 
 .pasta {
   min-height: 100vh;
@@ -56,4 +60,8 @@ h1,h2,h3,h4,h5,h6 {
 .btn-about:hover{
   background: var(--primaryColor);
   color: var(--mainBrown);
+}
+
+.footer {
+  background: var(--mainBrown);
 }
