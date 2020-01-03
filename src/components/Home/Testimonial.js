@@ -7,7 +7,7 @@ export default function Testimonial() {
     return (
          <div className="gray-container">
     <div className="container" style={{textAlign:"center", padding:'.8em 1.2em'}}>
-      <Title title="Testimonials"/>
+      <Title title="Reviews"/>
         <ul style={{listStyle: 'none', margin: 0, padding: 0,}}>
             <li>
             <figure>

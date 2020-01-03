@@ -11,9 +11,9 @@ export default function Info() {
                  <p className="lead text-muted mb-5">
                    No 4 Law Xtension, Unilag Estate, Magodo Phase 1.
                  </p>
-                 <Link to="/location">
+                 {/* <Link to="/location">
                  <button className="btn text-uppercase btn-about">location</button>
-                 </Link>
+                 </Link> */}
                 </div>
             </div>
             </div>
